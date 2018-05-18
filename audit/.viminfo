@@ -1,0 +1,373 @@
+# Este arquivo viminfo foi gerado pelo Vim 7.3.
+# Você pode editá-lo se for cuidadoso!
+
+# Valor de 'encoding' quando este arquivo foi escrito
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último padrão de busca :
+~MSle0/q
+
+# Último padrão de busca  de substituição:
+~MSle0~&dexter.com.br
+
+# Última string de substituição:
+$mandark.com.br
+
+# Histórico de Linha de comando (mais recente primeiro):
+:q
+:wq!
+:!cat /var/lib/dhcp/dhcpd.leases
+:!cat /var/lib.dhcp/dhcp.leases
+:!cat /var/lic/dhcp/dhcp.leases
+:q!
+:%s/dexter.com.br/mandark.com.br/gc
+:wq
+
+# Histórico de Expressões de busca (mais recente primeiro):
+? dexter.com.br
+??q
+
+# Histórico de Expressão (mais recente primeiro):
+
+# Histórico de Linhas de entrada (mais recente primeiro):
+
+# Histórico de Linhas de entrada (mais recente primeiro):
+
+# Registradores:
+"0	LINE	0
+	zone "dexter.com.br" {
+		type master;
+		file "db.dexter";
+	allow-transfer { 192.168.200.130; };
+	notify yes;
+	also-notify { 192.168.200.130; };
+	
+	};
+""1	CHAR	0
+	$TTL 86400 ; Tempo em Segundos que o Cache ira permanecer nos DNS do Mundo 
+	@       IN      SOA     ns1.dexter.com.br.  root.dexter.com.br. ( 
+	                2016060101; serial 
+	                8h ; refresh 
+	                1h ; retry 
+	                3d ; expire 
+	                3h ) ; negative caching ttl 
+	@               IN              NS      ns1.dexter.com.br. 
+	ns1             IN              A       192.168.200.30
+	
+	@               IN              A       192.168.200.130 
+	;Coloque O Ip do Web Server Cloud
+	;www             IN              A       172.17.xxx.xxxx
+	
+	intranet	IN		A	192.168.200.130
+	bkpreport	IN		CNAME	intranet
+	backup		IN		CNAME	intranet
+	webmail		IN		CNAME	intranet
+	sarg		IN		CNAME	intranet
+	ftp             IN              CNAME   intranet
+	
+	@               IN              MX      10 mail.dexter.com.br. 
+	mail            IN              A       192.168.200.131 
+	smtp            IN              CNAME   mail 
+	pop             IN              CNAME   mail 
+	imap            IN              CNAME   mail 
+	
+	ldap		IN		A	192.168.200.131
+	
+	
+	
+	; Configuração do DNS secundário 
+	;@         IN        NS      ns2.dexter.com.br.
+	;ns2       IN        A       192.168.200.130
+"2	CHAR	0
+		acl local {
+			192.168.200.130;
+			127.0.0.1;
+	};
+	
+		acl rede {
+			192.168.200.0/25;
+			192.168.200.128/25;
+			172.17.0.0/16;
+	};
+	
+"3	CHAR	0
+		acl local {
+			192.168.200.130;
+			127.0.0.1;
+	};
+	
+		acl rede {
+			192.168.200.0/25;
+			192.168.200.128/25;
+			172.17.0.0/16;
+	}
+"-	CHAR	0
+	r
+
+# Marcas nos arquivos:
+'0  38  0  /etc/dhcp/dhcpd.conf
+'1  1  0  /var/cache/bind/db.dexter
+'2  5  16  /var/cache/bind/db.dexter
+'3  13  49  /var/cache/bind/db.dexter
+'4  1  0  /etc/dhcp/dhcpd.conf
+'5  36  43  /etc/dhcp/dhcpd.conf
+'6  3  26  /var/cache/bind/db.dexter
+'7  1  0  /var/cache/bind/db.mandark
+'8  37  0  /etc/bind/named.conf.local
+'9  33  0  /var/cache/bind/db.mandark
+
+# Lista de saltos (mais recente primeiro):
+-'  38  0  /etc/dhcp/dhcpd.conf
+-'  1  0  /etc/dhcp/dhcpd.conf
+-'  1  0  /var/cache/bind/db.dexter
+-'  5  16  /var/cache/bind/db.dexter
+-'  13  49  /var/cache/bind/db.dexter
+-'  36  43  /etc/dhcp/dhcpd.conf
+-'  3  26  /var/cache/bind/db.dexter
+-'  1  0  /var/cache/bind/db.mandark
+-'  37  0  /etc/bind/named.conf.local
+-'  1  0  /etc/bind/named.conf.local
+-'  33  0  /var/cache/bind/db.mandark
+-'  35  21  /var/cache/bind/db.dexter
+-'  1  0  ~/named.conf.local
+-'  1  1  /etc/bind/named.conf.options
+-'  1  0  /etc/bind/named.conf
+-'  6  1  /etc/bind/named.conf.options
+-'  42  0  /etc/bind/named.conf.options
+-'  13  0  /etc/bind/named.conf.options
+-'  14  0  /etc/bind/named.conf.options
+-'  33  0  /etc/bind/named.conf.options
+-'  35  29  /etc/bind/named.conf.options
+-'  16  43  /etc/bind/named.conf.options
+-'  17  35  /var/cache/bind/rev.dexter
+-'  1  0  /var/cache/bind/rev.dexter
+-'  15  12  /var/cache/bind/rev.dexter
+-'  2  3  /etc/bind/named.conf.local
+-'  22  10  /etc/bind/named.conf.local
+-'  1  0  /etc/bind/named
+-'  15  0  /etc/bind/named.conf.local
+-'  16  1  /etc/bind/named.conf.local
+-'  1  0  /etc/resolv.conf
+-'  30  17  ~/dhcp/dhcpd.conf
+-'  1  0  ~/dhcp/dhcpd.conf
+-'  12  31  ~/dns/rev.dexter
+-'  1  0  ~/dns/rev.dexter
+-'  1  0  ~/dns/.rev.dexter.swp
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  1  0  ~/dns/.rev.dexter.swp
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  12  31  ~/dns/rev.dexter
+-'  1  0  ~/dns/rev.dexter
+-'  1  0  ~/dns/.rev.dexter.swp
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  1  0  ~/dns/.rev.dexter.swp
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  30  17  ~/dhcp/dhcpd.conf
+-'  1  0  ~/dhcp/dhcpd.conf
+-'  12  31  ~/dns/rev.dexter
+-'  1  0  ~/dns/rev.dexter
+-'  1  0  ~/dns/.rev.dexter.swp
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  1  0  ~/dns/.rev.dexter.swp
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  19  3  ~/dns/db.dexter
+-'  1  0  ~/dns/db.dexter
+-'  12  31  ~/dns/rev.dexter
+-'  1  0  ~/dns/rev.dexter
+
+# Histórico de marcas nos arquivos (mais recente primeiro):
+
+> /etc/dhcp/dhcpd.conf
+	"	38	0
+	^	36	44
+	.	36	42
+	+	36	0
+	+	37	0
+	+	38	0
+	+	35	0
+	+	36	42
+
+> /var/cache/bind/db.dexter
+	"	1	0
+	^	3	26
+	.	3	23
+	+	35	23
+	+	35	29
+	+	35	0
+	+	1	0
+	+	33	0
+	+	34	0
+	+	3	23
+	+	13	49
+	+	3	23
+
+> /var/cache/bind/db.mandark
+	"	1	0
+	.	33	0
+	+	2	0
+	+	8	0
+	+	22	0
+	+	33	0
+
+> /etc/bind/named.conf.local
+	"	37	0
+	^	37	0
+	.	30	16
+	+	9	22
+	+	15	0
+	+	11	17
+	+	15	0
+	+	16	1
+	+	11	17
+	+	12	35
+	+	14	30
+	+	12	16
+	+	14	32
+	+	15	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	29
+	+	20	9
+	+	22	11
+	+	27	0
+	+	37	0
+	+	36	0
+	+	28	12
+	+	30	16
+	a	28	6
+
+> ~/named.conf.local
+	"	1	0
+
+> /etc/bind/named.conf.options
+	"	1	1
+	^	1	0
+	.	1	0
+	+	16	1
+	+	14	34
+	+	16	30
+	+	14	0
+	+	14	45
+	+	16	43
+	+	15	0
+	+	14	0
+	+	14	0
+	+	14	10
+	+	33	2
+	+	34	0
+	+	16	1
+	+	14	18
+	+	14	0
+	+	14	1
+	+	14	0
+	+	14	1
+	+	14	0
+	+	34	29
+	+	35	25
+	+	37	0
+	+	34	0
+	+	35	1
+	+	33	14
+	+	14	0
+	+	14	0
+	+	1	0
+	+	14	0
+	+	15	0
+	+	13	0
+	+	1	0
+
+> /etc/bind/named.conf
+	"	1	0
+
+> /var/cache/bind/rev.dexter
+	"	17	35
+	^	17	36
+	.	17	35
+	+	3	21
+	+	14	35
+	+	15	0
+	+	15	0
+	+	17	0
+	+	15	0
+	+	16	0
+	+	15	20
+	+	16	21
+	+	17	21
+	+	16	0
+	+	17	13
+	+	14	36
+	+	15	35
+	+	16	36
+	+	17	35
+
+> /etc/bind/named
+	"	1	0
+
+> /etc/resolv.conf
+	"	1	0
+
+> ~/dhcp/dhcpd.conf
+	"	30	17
+	^	30	18
+	.	30	17
+	+	30	17
+
+> ~/dns/rev.dexter
+	"	12	31
+	^	12	32
+	.	12	31
+	+	13	31
+	+	12	31
+
+> ~/dns/.rev.dexter.swp
+	"	1	0
+
+> ~/dns/db.dexter
+	"	19	3
+	^	19	4
+	.	19	3
+	+	19	3

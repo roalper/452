@@ -1,0 +1,397 @@
+# Este arquivo viminfo foi gerado pelo Vim 7.3.
+# Você pode editá-lo se for cuidadoso!
+
+# Valor de 'encoding' quando este arquivo foi escrito
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último padrão de busca :
+~MSle0~/389
+
+# Última string de substituição:
+$
+
+# Histórico de Linha de comando (mais recente primeiro):
+:wq!
+:q
+:q!
+:w /etc/squid3/acls/listanegra.list
+:w
+:wq
+:71,93 d
+:68,90 d
+
+# Histórico de Expressões de busca (mais recente primeiro):
+?/389
+?/permit
+?/set bg=dark
+??q
+
+# Histórico de Expressão (mais recente primeiro):
+
+# Histórico de Linhas de entrada (mais recente primeiro):
+
+# Histórico de Linhas de entrada (mais recente primeiro):
+
+# Registradores:
+""0	LINE	0
+	http_access allow REDE
+	http_access deny CONTEMTORRENT
+"1	LINE	0
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 52000 -j DNAT --to 192.168.200.30:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.30 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.30 --sport 22 -d 0/0 -j ACCEPT
+	
+	### Redirect
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 53000 -j DNAT --to 192.168.200.40:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.40 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.40 --sport 22 -d 0/0 -j ACCEPT
+	
+	### Redirect
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 54000 -j DNAT --to 192.168.200.50:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.50 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.50 --sport 22 -d 0/0 -j ACCEPT
+	
+	### Redirect
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 55000 -j DNAT --to 192.168.200.130:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.130 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.130 --sport 22 -d 0/0 -j ACCEPT
+	
+	### Redirect
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 56000 -j DNAT --to 192.168.200.131:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.131 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.131 --sport 22 -d 0/0 -j ACCEPT
+"2	LINE	0
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 52000 -j DNAT --to 192.168.200.30:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.30 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.30 --sport 22 -d 0/0 -j ACCEPT
+	
+	### Redirect
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 53000 -j DNAT --to 192.168.200.40:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.40 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.40 --sport 22 -d 0/0 -j ACCEPT
+	
+	### Redirect
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 54000 -j DNAT --to 192.168.200.50:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.50 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.50 --sport 22 -d 0/0 -j ACCEPT
+	
+	### Redirect
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 55000 -j DNAT --to 192.168.200.130:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.130 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.130 --sport 22 -d 0/0 -j ACCEPT
+	
+	### Redirect
+	   iptables -t nat -A PREROUTING -p tcp -s 0/0 -d $FWWAN2 --dport 56000 -j DNAT --to 192.168.200.131:22
+	   iptables -t filter -A FORWARD -p tcp -s 0/0 -d 192.168.200.131 --dport 22 -j ACCEPT
+	   iptables -t filter -A FORWARD -p tcp -s 192.168.200.131 --sport 22 -d 0/0 -j ACCEPT
+"3	LINE	0
+	nameserver 10.0.0.6
+"4	LINE	0
+	nameserver 10.0.0.5
+"-	CHAR	0
+	y
+
+# Marcas nos arquivos:
+'0  14  33  /etc/openvpn/security.conf
+'1  28  34  /etc/openvpn/security.conf
+'2  46  0  /etc/openvpn/2.0/vars
+'3  71  16  /etc/openvpn/2.0/vars
+'4  84  0  /etc/squid3/squid.conf
+'5  122  0  /etc/squid3/squid.conf
+'6  2  9  /etc/squid3/acls/listabranca.list
+'7  125  0  /etc/squid3/squid.conf
+'8  1  0  /acls/listanegra.list
+'9  106  0  ~/squid/squid.conf
+
+# Lista de saltos (mais recente primeiro):
+-'  14  33  /etc/openvpn/security.conf
+-'  1  0  /etc/openvpn/security.conf
+-'  28  34  /etc/openvpn/security.conf
+-'  46  0  /etc/openvpn/2.0/vars
+-'  1  0  /etc/openvpn/2.0/vars
+-'  71  16  /etc/openvpn/2.0/vars
+-'  84  0  /etc/squid3/squid.conf
+-'  1  0  /etc/squid3/squid.conf
+-'  122  0  /etc/squid3/squid.conf
+-'  2  9  /etc/squid3/acls/listabranca.list
+-'  1  0  /etc/squid3/acls/listabranca.list
+-'  125  0  /etc/squid3/squid.conf
+-'  1  0  /acls/listanegra.list
+-'  106  0  ~/squid/squid.conf
+-'  1  0  ~/squid/squid.conf
+-'  1  0  ~/squid.conf
+-'  119  0  /etc/squid3/squid.conf
+-'  2  0  /etc/resolv.conf
+-'  1  0  /etc/resolv.conf
+-'  102  0  /etc/rules
+-'  111  0  /etc/rules
+-'  1  0  /etc/rules
+-'  51  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  5  0  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  45  61  /etc/rules
+-'  73  0  /etc/rules
+-'  123  0  /etc/rules
+-'  13  0  /etc/rc.local
+-'  1  0  /etc/rc.local
+-'  113  52  /etc/rules
+-'  77  3  /etc/rules
+-'  68  0  /etc/rules
+-'  6  11  /etc/rules
+-'  74  0  ~/firewall/firewall
+-'  1  0  ~/firewall/firewall
+-'  82  0  ~/firewall/firewall
+-'  30  0  /etc/sysctl.conf
+-'  1  0  /etc/sysctl.conf
+-'  28  0  /etc/sysctl.conf
+-'  1  0  /proc/sys/net/ipv4/ip_forward
+-'  1  0  /opt/firewall
+-'  14  3  /etc/rc.local
+-'  15  5  /etc/rc.local
+-'  8  0  /etc/rc2.d
+-'  21  22  /etc/openvpn/client.conf
+-'  1  0  /etc/openvpn/client.conf
+-'  10  0  /etc/openvpn/client.conf
+-'  24  0  /etc/network/interfaces
+-'  32  11  /etc/network/if-up.d/upstart
+-'  47  0  /etc/network/if-up.d/upstart
+-'  1  0  /etc/network/if-up.d/upstart
+-'  18  0  /etc/network/interfaces
+-'  1  0  /etc/networks
+-'  3  17  /etc/resolv.conf
+-'  4  17  /etc/resolv.conf
+-'  6  0  /etc/resolv.conf
+-'  5  0  /etc/resolv.conf
+-'  1  0  /etc/networks
+-'  1  0  /etc/networks
+-'  2  0  /etc/resolv.conf
+-'  1  0  /etc/resolv.conf
+-'  102  0  /etc/rules
+-'  111  0  /etc/rules
+-'  1  0  /etc/rules
+-'  51  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  5  0  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  45  61  /etc/rules
+-'  73  0  /etc/rules
+-'  123  0  /etc/rules
+-'  13  0  /etc/rc.local
+-'  1  0  /etc/rc.local
+-'  113  52  /etc/rules
+-'  77  3  /etc/rules
+-'  68  0  /etc/rules
+-'  6  11  /etc/rules
+-'  74  0  ~/firewall/firewall
+-'  1  0  ~/firewall/firewall
+-'  82  0  ~/firewall/firewall
+-'  30  0  /etc/sysctl.conf
+-'  1  0  /etc/sysctl.conf
+-'  28  0  /etc/sysctl.conf
+-'  1  0  /proc/sys/net/ipv4/ip_forward
+-'  1  0  /opt/firewall
+-'  14  3  /etc/rc.local
+-'  15  5  /etc/rc.local
+-'  8  0  /etc/rc2.d
+-'  21  22  /etc/openvpn/client.conf
+-'  1  0  /etc/openvpn/client.conf
+-'  10  0  /etc/openvpn/client.conf
+-'  24  0  /etc/network/interfaces
+-'  32  11  /etc/network/if-up.d/upstart
+-'  47  0  /etc/network/if-up.d/upstart
+-'  1  0  /etc/network/if-up.d/upstart
+-'  18  0  /etc/network/interfaces
+
+# Histórico de marcas nos arquivos (mais recente primeiro):
+
+> /etc/openvpn/security.conf
+	"	14	33
+	^	14	34
+	.	14	33
+	+	28	34
+	+	14	33
+
+> /etc/openvpn/2.0/vars
+	"	46	0
+	^	71	17
+	.	71	16
+	+	64	21
+	+	65	22
+	+	66	24
+	+	67	29
+	+	68	36
+	+	69	22
+	+	70	25
+	+	71	16
+
+> /etc/squid3/squid.conf
+	"	84	0
+	^	84	0
+	.	84	0
+	+	85	0
+	+	119	0
+	+	89	0
+	+	119	21
+	+	125	0
+	+	119	26
+	+	120	11
+	+	58	0
+	+	57	0
+	+	56	0
+	+	55	0
+	+	90	0
+	+	91	0
+	+	92	0
+	+	93	0
+	+	117	0
+	+	119	0
+	+	120	29
+	+	121	0
+	+	122	0
+	+	123	0
+	+	125	0
+	+	122	0
+	+	121	25
+	+	122	27
+	+	123	16
+	+	124	15
+	+	125	0
+	+	127	0
+	+	84	0
+
+> /etc/squid3/acls/listabranca.list
+	"	2	9
+	^	2	10
+	.	2	9
+	+	3	0
+	+	2	9
+
+> /acls/listanegra.list
+	"	1	0
+	^	5	0
+	.	5	0
+	+	1	12
+	+	5	0
+
+> ~/squid/squid.conf
+	"	106	0
+
+> ~/squid.conf
+	"	1	0
+
+> /etc/resolv.conf
+	"	2	0
+	^	2	1
+	.	2	0
+	+	6	0
+	+	4	17
+	+	6	0
+	+	3	17
+	+	4	0
+	+	5	0
+	+	3	0
+	+	1	0
+	+	2	0
+
+> /etc/rules
+	"	102	0
+	^	102	0
+	.	102	0
+	+	29	54
+	+	30	37
+	+	33	71
+	+	34	50
+	+	37	78
+	+	38	50
+	+	41	52
+	+	42	38
+	+	60	55
+	+	41	52
+	+	42	38
+	+	38	50
+	+	37	78
+	+	60	55
+	+	61	56
+	+	68	48
+	+	5	11
+	+	6	12
+	+	68	47
+	+	69	46
+	+	68	46
+	+	69	67
+	+	77	0
+	+	70	86
+	+	77	0
+	+	71	0
+	+	75	0
+	+	71	0
+	+	73	0
+	+	74	0
+	+	73	0
+	+	77	0
+	+	78	0
+	+	71	82
+	+	73	84
+	+	74	82
+	+	75	0
+	+	75	0
+	+	76	0
+	+	75	83
+	+	72	82
+	+	74	0
+	+	45	48
+	+	98	0
+	+	99	0
+	+	101	0
+	+	102	0
+
+> /etc/ssh/sshd_config
+	"	51	0
+	.	51	0
+	+	51	0
+
+> /etc/network/interfaces
+	"	5	0
+
+> /etc/rc.local
+	"	13	0
+	^	13	1
+	.	13	0
+	+	16	0
+	+	14	44
+	+	15	6
+	+	14	3
+	+	13	0
+
+> ~/firewall/firewall
+	"	74	0
+
+> /etc/sysctl.conf
+	"	30	0
+	^	30	0
+	.	30	0
+	+	28	0
+	+	30	0
+
+> /proc/sys/net/ipv4/ip_forward
+	"	1	0
+
+> /opt/firewall
+	"	1	0
+
+> /etc/openvpn/client.conf
+	"	21	22
+	^	21	23
+	.	21	22
+	+	20	23
+	+	21	22
+
+> /etc/network/if-up.d/upstart
+	"	32	11
+
+> /etc/networks
+	"	1	0

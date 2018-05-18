@@ -1,0 +1,13 @@
+#Zona Direta
+zone "dexter.com.br" {
+	type slave;
+	masters { 192.168.200.30; };
+	file "/var/named/slaves/db.slave.dexter";
+};
+
+#Zona Reversa
+zone "200.168.192.in-addr.arpa" {
+	type slave;
+	masters { 192.168.200.30; };
+	file "/var/named/slaves/rev.slave.dexter";
+};

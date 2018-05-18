@@ -1,0 +1,316 @@
+# Este arquivo viminfo foi gerado pelo Vim 7.4.
+# Você pode editá-lo se for cuidadoso!
+
+# Valor de 'encoding' quando este arquivo foi escrito
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Último padrão de busca :
+~MSle0~/q
+
+# Última string de substituição:
+$
+
+# Histórico de Linha de comando (mais recente primeiro):
+:q
+:wq!
+:wqw!
+:q!
+:wq
+:x
+
+# Histórico de Expressões de busca (mais recente primeiro):
+??q
+
+# Histórico de Expressão (mais recente primeiro):
+
+# Histórico de Linhas de entrada (mais recente primeiro):
+
+# Histórico de Linhas de entrada (mais recente primeiro):
+
+# Registradores:
+"0	LINE	0
+	
+""1	LINE	0
+	#ldbmodify -H ldap://192.168.200.40 /tmp/modifica.ldif --user=DEXTER/Administrator%4LinuxSamba4
+"2	LINE	0
+	" ============================================================================
+	" Netrw Directory Listing                                        (netrw v149)
+	"   /root/samba
+	"   Sorted by      name
+	"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+	" ============================================================================
+	../
+	./
+	add-atributos.sh*
+	cria-lixeiras.sh*
+	migra-grupos.sh*
+	migra-usuarios.sh*
+	reseta-senhas.sh*
+	logon.vbs
+	samba4.1.repo
+	smb.conf
+	.swp
+"3	LINE	0
+	
+"4	LINE	0
+		recycle: directory_mode = 0700
+"5	LINE	0
+		recycle: excludedir = /tmp|/var/tmp
+"6	LINE	0
+		recycle: keeptree = Yes
+"7	LINE	0
+		recycle: versions = Yes
+"8	LINE	0
+		recycle: repository = /srv/samba/lixeiras/%U
+"9	LINE	0
+		vfs objects = recycle
+"-	CHAR	0
+	_
+
+# Marcas nos arquivos:
+'0  6  0  ~/samba/logon.vbs
+'1  38  83  ~/samba/add-atributos.sh
+'2  3  0  ~/samba/migra-usuarios.sh
+'3  2  0  ~/samba/add-atributos.sh
+'4  3  0  ~/samba/migra-grupos.sh
+'5  1  0  ~/samba/reseta-senhas.sh
+'6  1  0  /etc/samba/smb.conf
+'7  1  0  /etc/krb5.conf
+'8  47  0  ~/samba4.sh
+'9  2  0  ~/samba/migra-usuarios.sh
+
+# Lista de saltos (mais recente primeiro):
+-'  6  0  ~/samba/logon.vbs
+-'  1  0  ~/samba/logon.vbs
+-'  38  83  ~/samba/add-atributos.sh
+-'  2  0  ~/samba/add-atributos.sh
+-'  3  0  ~/samba/migra-usuarios.sh
+-'  3  0  ~/samba/migra-grupos.sh
+-'  1  0  ~/samba/reseta-senhas.sh
+-'  2  0  ~/samba/migra-usuarios.sh
+-'  1  0  /etc/samba/smb.conf
+-'  1  0  /etc/krb5.conf
+-'  47  0  ~/samba4.sh
+-'  1  0  ~/samba4.sh
+-'  1  0  ~/samba/migra-grupos.sh
+-'  7  0  ~/samba/add-atributos.sh
+-'  1  0  ~/samba/add-atributos.sh
+-'  49  0  /etc/ssh/sshd_config
+-'  1  0  /etc/ssh/sshd_config
+-'  3  0  /etc/resolv.conf
+-'  11  0  ~/samba/smb.conf
+-'  29  1  ~/samba/smb.conf
+-'  15  0  ~/samba/smb.conf
+-'  1  0  ~/samba/smb.conf
+-'  14  34  ~/.bashrc
+-'  65  9  /etc/vimrc
+-'  64  0  /etc/vimrc
+-'  1  0  /etc/vimrc
+-'  12  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  164  0  /etc/sysconfig/network-scripts/ifup
+-'  5  0  /etc/sysconfig/network-scripts/ifup
+-'  1  0  /etc/sysconfig/network-scripts/ifup
+-'  6  0  /etc/sysconfig/network-scripts/ifcfg-eth0
+-'  7  0  /etc/sysconfig/network-scripts/ifcfg-eth0
+-'  1  0  /etc/sysconfig/network-scripts
+-'  1  0  /etc/resolv.conf
+-'  5  0  /etc/sysconfig/network-scripts/ifcfg-eth0
+-'  65  0  /boot/grub2/grub.cfg
+-'  1  0  /boot/grub2/grub.cfg
+-'  92  22  /etc/rsyslog.conf
+-'  1  0  /etc/rsyslog.conf
+-'  21  20  /etc/ntp.conf
+-'  1  0  /etc/ntp.conf
+-'  13  40  /etc/fstab
+-'  12  0  /etc/fstab
+-'  1  21  /etc/sysconfig/network-scripts/router-eth0
+-'  3  0  /etc/sysconfig/network-scripts/router-eth0
+-'  3  21  /etc/sysconfig/network-scripts/route-eth0
+-'  1  0  /etc/sysconfig/network-scripts/route-eth0
+-'  62  17  /etc/security/limits.conf
+-'  61  0  /etc/security/limits.conf
+-'  60  0  /etc/security/limits.conf
+-'  23  20  /etc/pam.d/login
+-'  8  0  /etc/pam.d/login
+-'  75  10  /etc/login.defs
+-'  74  7  /etc/login.defs
+-'  39  0  /etc/login.defs
+-'  73  0  /etc/login.defs
+-'  3  40  /etc/pam.d/su
+-'  1  0  /etc/pam.d/su
+-'  69  0  /etc/security/time.conf
+-'  67  0  /etc/security/time.conf
+-'  66  0  /etc/security/time.conf
+-'  5  23  /etc/pam.d/sshd
+-'  1  0  /etc/pam.d/sshd
+-'  7  0  /etc/pam.d/login
+-'  10  0  /etc/pam.d/login
+-'  1  0  /etc/security/time.conf
+-'  5  0  /etc/pam.d/login
+-'  15  0  /etc/securetty
+-'  1  0  /etc/securetty
+-'  25  0  /etc/pam.d/login
+-'  1  0  /etc/pam.d/login
+-'  46  10  /etc/warnquota.conf
+-'  1  0  /etc/warnquota.conf
+-'  77  0  /etc/login.defs
+-'  1  0  /etc/security/limits.conf
+-'  11  0  /etc/fstab
+-'  2  0  /etc/skel/.profile
+-'  1  0  /etc/skel/.profile
+-'  7  8  ~/funcionarios.txt
+-'  1  0  ~/funcionarios.txt
+-'  1  0  /etc/login.defs
+-'  2  12  /etc/hosts
+-'  1  0  /etc/hosts
+-'  8  0  /etc/sysconfig/network-scripts/ifcfg-eth0
+-'  1  9  /etc/hostname
+-'  3  0  /etc/hosts
+-'  3  0  /etc/sysconfig/network-scripts/ifcfg-eth0
+-'  39  20  /etc/nsswitch.conf
+-'  1  0  /etc/nsswitch.conf
+-'  6  0  /etc/sysconfig/network-scripts/ifcfg-eth1
+-'  1  0  /etc/sysconfig/network-scripts/ifcfg-eth1
+-'  1  0  /etc/sysconfig/network-scripts/ifcfg-eth0
+-'  1  0  /etc/fstab
+-'  13  18  /etc/yum.conf
+-'  1  0  /etc/yum.conf
+-'  1  308  ~/descricao.txt
+-'  1  0  ~/.bash_profile
+-'  1  0  ~/.bash_history
+
+# Histórico de marcas nos arquivos (mais recente primeiro):
+
+> ~/samba/logon.vbs
+	"	6	0
+
+> ~/samba/add-atributos.sh
+	"	38	83
+	^	38	84
+	.	38	83
+	+	7	108
+	+	35	0
+	+	37	0
+	+	38	0
+	+	38	83
+
+> ~/samba/migra-usuarios.sh
+	"	3	0
+	^	3	167
+	.	3	159
+	+	2	91
+	+	3	159
+
+> ~/samba/migra-grupos.sh
+	"	3	0
+	^	4	28
+	.	3	63
+	+	3	63
+
+> ~/samba/reseta-senhas.sh
+	"	1	0
+
+> /etc/samba/smb.conf
+	"	1	0
+
+> /etc/krb5.conf
+	"	1	0
+
+> ~/samba4.sh
+	"	47	0
+
+> /etc/ssh/sshd_config
+	"	49	0
+	^	49	0
+	.	49	0
+	+	49	0
+
+> /etc/resolv.conf
+	"	3	0
+	.	4	0
+	+	1	24
+	+	1	0
+	+	1	0
+	+	1	23
+	+	1	24
+	+	2	26
+	+	3	17
+	+	1	19
+	+	2	24
+	+	3	25
+	+	4	0
+
+> ~/samba/smb.conf
+	"	11	0
+	.	11	0
+	+	23	0
+	+	11	0
+	+	29	0
+	+	11	0
+
+> ~/.bashrc
+	"	14	34
+	^	14	35
+	.	14	34
+	+	14	34
+
+> /etc/vimrc
+	"	65	9
+	^	65	10
+	.	65	9
+	+	65	9
+
+> /etc/sysconfig/network-scripts/ifup
+	"	164	0
+
+> /etc/sysconfig/network-scripts/ifcfg-eth0
+	"	6	0
+	^	7	21
+	.	8	0
+	+	2	0
+	+	8	11
+	+	5	19
+	+	6	22
+	+	8	0
+
+> /boot/grub2/grub.cfg
+	"	65	0
+
+> /etc/rsyslog.conf
+	"	92	22
+	^	92	23
+	.	92	22
+	+	92	22
+
+> /etc/ntp.conf
+	"	21	20
+	^	21	21
+	.	21	21
+	+	22	0
+	+	21	21
+
+> /etc/fstab
+	"	13	40
+	^	13	41
+	.	13	40
+	+	12	61
+	+	10	48
+	+	12	118
+	+	12	118
+	+	13	40
+
+> /etc/sysconfig/network-scripts/router-eth0
+	"	1	21
+	^	1	24
+	.	2	24
+	+	3	23
+	+	1	0
+	+	3	24
+	+	2	0
+	+	3	24
+	+	2	24
